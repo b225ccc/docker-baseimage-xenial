@@ -1,5 +1,5 @@
-FROM lsiobase/xenial-root-x86
-MAINTAINER sparklyballs
+FROM ubuntu:16.04
+MAINTAINER b225ccc
 
 # set version for s6 overlay
 ARG OVERLAY_VERSION="v1.19.1.1"
